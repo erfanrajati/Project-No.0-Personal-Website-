@@ -13,23 +13,26 @@ a {
 .navbar {
     background-color: #000000;
     padding: 40px;
-    width: 100%;
-    height: 100px
+    height: 63px;
 }
 
-.navbar h1 {
+.title {
     background-color: inherit;
     float: left;
-    padding: 0 0 0 30px;
+    width: max-content;
+    padding-left: 20px;
     font-size: 42px;
-    font-weight: normal;
+    font-weight: 600;
     color: #ffffff;
 }
 
 .navbar ul {
     background-color: inherit;
     text-align: right;
-    margin: calc(calc(100px - 48px) / 2) 0;
+    height: 63px;
+    padding: 16px 0;
+    /* margin-top: calc(calc(100px - 48px) / 2);
+    margin-bottom: calc(calc(100px - 48px) / 2); */
 }
 
 .navbar ul li {
