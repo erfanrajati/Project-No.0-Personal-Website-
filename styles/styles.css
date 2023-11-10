@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+
+/* ------------------navbar-------------------- */
+
+
 .navbar {
     background-color: #000000;
     padding: 40px;
@@ -47,14 +51,45 @@ a {
     background-color: #000000;
 }
 
+.navbar i {
+    background-color: inherit;
+    color: #ffffff;
+    float: right;
+    font-size: 50px;
+    display: none;
+}
+
 .navbar ul li a:hover,
+.navbar i:hover,
 .title:hover {
     color: #580D7A;
     cursor: pointer;
 }
 
-
 .navbar ul li a,
+.navbar i,
 .title {
-    transition: color .4s ease-in-out;
+    transition: color .27s ease-in-out;
 }
+
+@media only screen and (max-width: 980px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .title {
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar i {
+        display: block;
+    }
+}
+
+
+/* ------------------navbar-------------------- */
