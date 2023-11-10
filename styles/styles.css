@@ -10,6 +10,24 @@ a {
     text-decoration: none;
 }
 
+.gray-button {
+    background-color: #474747;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    padding: 20px 40px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.gray-button:hover {
+    background-color: #696969;
+    cursor: pointer;
+}
+
+.gray-button {
+    transition:  background-color .27s ease-in-out;
+}
 
 /* ------------------navbar-------------------- */
 
@@ -27,7 +45,7 @@ a {
     padding-left: 20px;
     font-size: 42px;
     font-weight: 600;
-    color: #ffffff;
+    color: #580D7A;
 }
 
 .navbar ul {
@@ -35,8 +53,6 @@ a {
     text-align: right;
     height: 63px;
     padding: 16px 0;
-    /* margin-top: calc(calc(100px - 48px) / 2);
-    margin-bottom: calc(calc(100px - 48px) / 2); */
 }
 
 .navbar ul li {
@@ -92,4 +108,39 @@ a {
 }
 
 
-/* ------------------navbar-------------------- */
+/* ------------------header content-------------------- */
+
+
+.content {
+    padding: 75px 100px;
+}
+
+.content .text {
+    width: 960px;
+    padding-left: 30px;
+}
+
+.content .text h2 {
+    color: #ffffff;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.content .text p {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.content .gray-button {
+    margin: 45px 25px;
+}
+
+.content img {
+    float: right;
+    width: 490px;
+    height: 700px;
+    margin-right: 60px;
+    border-radius: 30px;
+}
