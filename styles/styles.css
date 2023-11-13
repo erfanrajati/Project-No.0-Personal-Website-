@@ -254,20 +254,20 @@ strong {
 
 .main .team {
     background-color: #131313;
-    padding: 100px 70px;
+    padding: 70px 40px;
 }
 
 .main .team img {
     width: 480px;
-    height:  auto;
+    height: auto;
     border-radius: 20px;
-    margin-bottom: 80px;
+    margin:0 30px 80px 10vw;
 }
 
 .team .text {
     background-color: transparent;
     padding: 60px;
-    margin-right: 50px;
+    margin: 0 10vw 0 10px;
     float: right;
     width: 560px;
     text-align: center;
@@ -284,7 +284,7 @@ strong {
 
 .team .text p {
     font-size: 40px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     font-weight: 100;
 }
 
@@ -298,9 +298,18 @@ strong {
     font-weight: 100;
 }
 
+.main .text .purple-button:hover {
+    background-color: #6f2a8f;
+}
+
+.main .text .purple-button {
+    transition: background-color .27s ease-in-out;
+}
+
 .team table {
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
+    margin: 0 5vw;
 }
 
 .team table tr td {
@@ -309,3 +318,8 @@ strong {
     margin: 30px;
     text-align: center; 
 }
+
+
+/* ------------------main offer-------------------- */
+
+
